@@ -5,4 +5,15 @@
     <string name="add_item_input_hint">Insert Item</string>
     <string name="action_add">Add</string>
     <string name="action_delete">Delete</string>
+    <string name="cntx_menu_delete">Delete Item</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Cancel</string>
+    
+    
+    <!--  names of extras returned by AddNewTodoItemActivity -->
+    <string name="ext_date">dueDate</string>
+    <string name="ext_title">title</string>
+    
+    
+    
 </resources>

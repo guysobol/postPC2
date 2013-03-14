@@ -10,19 +10,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".TodoListManagerActivity" >
 
-    <EditText
-        android:id="@+id/edtNewItem"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="@string/add_item_input_hint"
-        android:background="@drawable/border_ui"
-        android:layout_margin="10dp"
-        android:padding="5dp"
-        android:inputType="text" >
-        <requestFocus />
-    </EditText>
-
     <ListView
         android:id="@+id/lstTodoItems"
         android:layout_width="match_parent"
