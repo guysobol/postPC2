@@ -12,17 +12,24 @@ import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 
+/*
+ *  This activity is called for "add" and "update" operations 
+ *  from TodoListManagerActivity.
+ *  
+ *  Enables user to modify/set title and dueDate fields of a todoItem
+ */
 public class AddNewTodoItemActivity extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
+		
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.add_new_item_layout);
 		
 		final Intent resIntent = new Intent();
 		final Resources res = getResources();
 		
-		
+		// init "OK" button
 		Button btnOk = (Button) findViewById(R.id.btnOK);
 		btnOk.setOnClickListener(new OnClickListener() {
 			
@@ -41,7 +48,7 @@ public class AddNewTodoItemActivity extends Activity {
 			}
 		});
 		
-		
+		// init "Cancel" button
 		Button btnCancel = (Button) findViewById(R.id.btnCancel);
 		btnCancel.setOnClickListener(new OnClickListener() {
 			

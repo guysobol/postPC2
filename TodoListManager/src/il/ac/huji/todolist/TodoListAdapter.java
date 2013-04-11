@@ -10,14 +10,14 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
-public class TodoListAdapter extends ArrayAdapter<TodoItem> {
-	public TodoListAdapter(TodoListManagerActivity activity, List<TodoItem> courses) {
-		super(activity, android.R.layout.simple_list_item_1, courses);
+public class TodoListAdapter extends ArrayAdapter<ITodoItem> {
+	public TodoListAdapter(TodoListManagerActivity activity, List<ITodoItem> items) {
+		super(activity, android.R.layout.simple_list_item_1, items);
 	}
 
 	@Override
 	public View getView(int position, View convertView, ViewGroup parent) {
-		TodoItem item = getItem(position);
+		TodoItem item = (TodoItem) getItem(position);
 		//int txtColor = (position%2==0) ? Color.RED : Color.BLUE;
 		
 		LayoutInflater inflater = LayoutInflater.from(getContext());

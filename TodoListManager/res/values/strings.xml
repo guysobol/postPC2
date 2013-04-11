@@ -6,6 +6,7 @@
     <string name="action_add">Add</string>
     <string name="action_delete">Delete</string>
     <string name="cntx_menu_delete">Delete Item</string>
+    <string name="cntx_menu_update">Update Item</string>
     <string name="btn_ok">OK</string>
     <string name="btn_cancel">Cancel</string>
     
@@ -14,6 +15,8 @@
     <string name="ext_date">dueDate</string>
     <string name="ext_title">title</string>
     
-    
+    <!-- app name & user key for parse interface -->
+    <string name="parseApplication">Va4hK46Dq5TV3IrgXjYnfpNfFaDC31VyY0G0IbiK</string>
+    <string name="clientKey">CAr8HdvSyKSzwOrRaPxEC9yOhnxcj2dmQPEgcCpc</string>   
     
 </resources>
